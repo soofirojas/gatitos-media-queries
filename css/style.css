@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sunny {
+    position: relative;
+    height: 98vh;
+}
+
+.kitten-sunny {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -25%;
+}
+
+.night {
+    position: relative;
+    height: 70vh;
+}
+
+.kitten-night {
+    position: absolute;
+    margin-left: 27%;
+    margin-top: -50%;
+}
+
+.dawn {
+    position: relative;
+    height: 50vh;
+    }
+
+.kitten-dawn {
+    position: absolute;
+    margin-left: 21%;
+    margin-top: -25%;
+    width: 53%;
+}
+
+@media (min-width: 768px) {
+    .sunny {
+        display: block;
+    }
+    
+    .kitten-sunny {
+        display: inline;
+    }
+
+    .night {
+        display: none;
+    }
+
+    .kitten-night {
+        display: none;
+    }
+
+    .dawn {
+        display: none;
+    }
+
+    .kitten-dawn {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .sunny {
+        display: none;
+    }
+    
+    .kitten-sunny {
+        display: none;
+    }
+
+    .night {
+        display: block;
+    }
+
+    .kitten-night {
+        display: block;
+    }
+
+    .dawn {
+        display: none;
+    }
+
+    .kitten-dawn {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .sunny {
+        display: none;
+    }
+    
+    .kitten-sunny {
+        display: none;
+    }
+
+    .night {
+        display: none;
+    }
+
+    .kitten-night {
+        display: none;
+    }
+
+    .dawn {
+        display: block;
+    }
+
+    .kitten-dawn {
+        display: block;
+    }
+
+}
